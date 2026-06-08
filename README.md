@@ -1,16 +1,42 @@
-# React + Vite
+# Personal Expense Tracking Service
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a single-page personal expense tracking application built for the Innovaxel Frontend Internship Assessment.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to add, view, edit, delete, filter, and visually analyse their personal expenses. It is built using React and stores expense data in the browser using localStorage, so the data remains available even after refreshing the page.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add a new expense with title, amount, category, date, and optional notes
+- View all expenses in a clean table layout
+- Expenses are sorted by most recent date first
+- Edit existing expense entries
+- Delete expense entries
+- View total amount spent
+- View category-wise spending breakdown
+- Pie chart summary using Chart.js
+- Filter expenses by category
+- Filter expenses by date range
+- Input validation for required fields and positive amounts
+- Responsive design for desktop and mobile screens
+- Data persistence using localStorage
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- CSS
+- Vite
+- Chart.js
+- react-chartjs-2
+- localStorage
+
+## How to Run the Project
+
+Clone the repository or download the source code.
+
+Install dependencies:
+
+```bash
+npm install
